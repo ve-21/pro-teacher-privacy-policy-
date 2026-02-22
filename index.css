@@ -1,0 +1,18 @@
+body {
+    background-color: #f8fafc;
+    color: #0f172a;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media print {
+    .no-print {
+        display: none !important;
+    }
+}
+
+.scroll-smooth {
+    scroll-behavior: smooth;
+}
